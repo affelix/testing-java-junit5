@@ -1,11 +1,13 @@
 package guru.springframework.sfgpetclinic.model;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 // What is really cool w.r.t. to assertAll is that it allows to write multiple tests within an assertion.
 // And still manages to run the assertions after one fails.
+@Tag("model")
 class PersonTest {
 
     @Test
