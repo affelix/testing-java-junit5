@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.TestInstance;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS) // to allow the test to run, because usually the test is static
+// IF IT WAS BEFORE EACH, this tag would not be necessary
 @Tag("controllers")
 public interface ControllerTests {
 
